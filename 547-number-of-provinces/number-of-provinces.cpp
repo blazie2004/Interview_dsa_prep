@@ -7,8 +7,10 @@ public:
             if (!visited[it]) {
                 dfs(it, adjls, visited);
             }
+            
         }
-        return;
+       
+        
     }
 
     int findCircleNum(vector<vector<int>>& isConnected) {
